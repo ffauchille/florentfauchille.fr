@@ -136,3 +136,14 @@
 .timeline-body > p + p {
     margin-top: 5px;
 }
+
+/* collapse panel body */
+.timeline-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.timeline-heading a.collapsed:after {
+    content:"\e080";
+}
