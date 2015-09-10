@@ -176,3 +176,9 @@
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
+/* Circle progress bar */
+.circle-container{
+    width: 50%;
+    height: 50%;
+}
