@@ -36,7 +36,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+                    data-target="#navbar-top">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -44,7 +44,7 @@
             </button>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-top">
             <ul class="nav navbar-nav">
                 <li>
                     <a href="#about">About me</a>
@@ -54,6 +54,12 @@
                 </li>
                 <li>
                     <a href="#corporate-work">Corporate work</a>
+                </li>
+                <li>
+                    <a href="#tools">Tools</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -71,7 +77,7 @@
         <div class="container">
             <h2>Florent Fauchille</h2>
 
-            <h3>Thanks for visiting my online resume</h3>
+            <h3>Who am I ?</h3>
             <h4>This site list most of my projects and work experience as an IT student at EPITA</h4>
         </div>
     </div>
@@ -100,6 +106,7 @@
 
         <p class="lead"> I'm finishing my last year at EPITA, an engineering school in IT based in Paris.</p>
 
+        <p class="lead"> Please check out EPITA's website if you want to know more about the program</p>
     </div>
 
     <hr class="featurette-divider" id="projects">
@@ -150,6 +157,39 @@
                 </div>
             </li>
             <li class="timeline-inverted">
+                <div class="timeline-badge info">03/15</div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <a data-toggle="collapse" data-target="#agl">
+                            <h3>Computer-aided software engineering</h3>
+                        </a>
+
+                        <p class="text-info"><i class="glyphicon glyphicon-time"></i> 9 months long</p>
+                    </div>
+                    <div id="agl" class="panel-collapse collapse">
+                        <div class="timeline-body">
+                            <p class="lead">
+                                Language: Python
+                                <br><br>
+                                Mission: Conceive and a build a software generator, maximizing code generation.
+                                <br>
+                                The project is divided in several parts:
+                            </p>
+                            <ul>
+                                <li>Write a complete overview of tools and methods that can be used</li>
+                                <li>Write an architecture that includes tools form the previous step</li>
+                                <li>Implement the architecture following specifications from the previous step</li>
+                                <li>Testing the software by using it on a concrete project</li>
+                                <li>Deliver an analysis and grade the software</li>
+                            </ul>
+                            <br><br>
+
+                            <p class="lead"> Collaborators: 4</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
                 <div class="timeline-badge warning">05/14</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -171,7 +211,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li class="timeline-inverted">
                 <div class="timeline-badge warning">01/14</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
@@ -193,13 +233,14 @@
                     </div>
                 </div>
             </li>
-            <li class="timeline-inverted">
+            <li>
                 <div class="timeline-badge warning">10/13</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <a data-toggle="collapse" data-target="#malloc">
                             <h3>Malloc</h3>
                         </a>
+
                         <p class="text-info"><i class="glyphicon glyphicon-time"></i> 1 week long</p>
                     </div>
                     <div id="malloc" class="panel-collapse collapse">
@@ -214,13 +255,14 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li class="timeline-inverted">
                 <div class="timeline-badge warning">11/13</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <a data-toggle="collapse" data-target="#rush">
                             <h3>Rush video game</h3>
                         </a>
+
                         <p class="text-info"><i class="glyphicon glyphicon-time"></i> 48 hours long</p>
                     </div>
                     <div id="rush" class="panel-collapse collapse">
@@ -289,42 +331,142 @@
 
         </div>
     </div>
+    <!-- Skills -->
 
-    <hr class="featurette-divider" id="contact">
-
-    <!-- Contact -->
+    <hr class="featurette-divider" id="skills">
     <div class="featurette text-center">
         <h2 class="featurette-heading">
-            Contact
+            Skills
+            <span class="text-muted"> & services</span>
         </h2>
-
-        <p class="lead">Florent FAUCHILLE</p>
-
-        <p class="lead">Paris</p>
-
-        <p class="lead">
-            <span class="glyphicon glyphicon-send"> florentfauchille@gmail.com</span>
-        </p>
-
-        <p class="lead">
-            <span class="glyphicon glyphicon-phone"> +33 6 98 94 87 98</span>
-        </p>
-
-        <p class="lead">
-            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/florent-fauchille/58/219/831"
-                    data-format="on-hover" data-related="false" data-text="Florent Fauchille"></script>
-        </p>
     </div>
 
-    <!-- Footer -->
-    <footer>
+
+    <!-- Tools -->
+    <hr class="featurette-divider" id="tools">
+
+    <div class="featurette text-center">
+        <h2 class="featurette-heading">
+            Tools
+            <span class="text-muted"> that I've used</span>
+        </h2>
+
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; florentfauchille.fr 2015</p>
+            <div class="col-lg-1">
+                <div class="row stylish-panel">
+                    <div class="col-md-4">
+                        <div>
+                            <img src="images/git.png" height="250" width="250" class="img-circle img-thumbnail">
+
+                            <h3>VCS</h3>
+
+                            <p class="lead">
+                                Daily use of git.
+                                <br>
+                                Use of Mercurial during my last internship.
+                                <br>
+                                Use of Tortoise SVN for my first year at EPITA.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <img src="images/jetbrains.png" height="250" width="250" class="img-circle img-thumbnail">
+
+                            <h3>IDE</h3>
+
+                            <p class="lead">
+                                Pycharm for Python.
+                                <br>
+                                Intellij Idea for Java and web projects.
+                                <br>
+                                Use of Eclipse during my last internship.
+                                <br>
+                                Use of VIM during my first year of master at EPITA.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <img src="images/office.png" height="250" width="250" class="img-circle img-thumbnail">
+
+                            <h3>Office</h3>
+
+                            <p class="lead">
+                                Daily use of Word, Excel and PowerPoint.
+                                <br>
+                                Use of LaTeX for most of my years at EPITA.
+                                <br>
+                                Use of LibreOffice during my last internship.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <div class="row stylish-panel">
+
+                    <div class="col-md-4">
+                        <div>
+                            <img src="images/trello.png" height="250" width="250" class="img-circle img-thumbnail">
+
+                            <h3>Project management</h3>
+
+                            <p class="lead">
+                                Daily use of Trello for task monitoring on group projects.
+                                <br>
+                                Use of MS Project for project's planning and gantt view.
+                                <br>
+                                Use of Jira for the scrum project.
+                                <br>
+                                Use of Redmine for few weeks.
+                                <br>
+                                Use of Mantis bug tracker during my last internship.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+
+</div>
+
+<hr class="featurette-divider" id="contact">
+
+<!-- Contact -->
+<div class="featurette text-center">
+    <h2 class="featurette-heading">
+        Contact
+    </h2>
+
+    <p class="lead">Florent FAUCHILLE</p>
+
+    <p class="lead">Paris</p>
+
+    <p class="lead">
+        <span class="glyphicon glyphicon-send"> florentfauchille@gmail.com</span>
+    </p>
+
+    <p class="lead">
+        <span class="glyphicon glyphicon-phone"> +33 6 98 94 87 98</span>
+    </p>
+
+    <p class="lead">
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/florent-fauchille/58/219/831"
+                data-format="on-hover" data-related="false" data-text="Florent Fauchille"></script>
+    </p>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; florentfauchille.fr 2015</p>
+        </div>
+    </div>
+</footer>
 
 </div>
 <!-- /.container -->
