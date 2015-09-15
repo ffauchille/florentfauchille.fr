@@ -40,6 +40,20 @@ var cppCircle = new ProgressBar.Circle('#cpp-circle', {
         bar.setText((bar.value() * 100).toFixed(0));
     }
 });
+var umlCircle = new ProgressBar.Circle('#uml-circle', {
+    color: '#FCB03C',
+    size: 4,
+    strokeWidth: 1.5,
+    trailWidth: 1,
+    duration: 2000,
+    text:{
+        value: '0'
+    },
+    step: function(state, bar){
+        bar.setText((bar.value() * 100).toFixed(0));
+    }
+});
+
 var projectCircle = new ProgressBar.Circle('#project-circle', {
     color: '#1E90FF',
     size: 4,
@@ -82,13 +96,30 @@ var softwareCircle = new ProgressBar.Circle('#software-circle', {
     }
 });
 
+var informationSystemCircle = new ProgressBar.Circle('#information-system-circle', {
+    color: '#1E90FF',
+    size: 4,
+    strokeWidth: 1.5,
+    trailWidth: 1,
+    duration: 2000,
+    text:{
+        value: '0'
+    },
+    step: function(state, bar){
+        bar.setText((bar.value() * 100).toFixed(0));
+    }
+});
+
+
 var displayAnimations = function() {
     javaCircle.animate(0.60);
     pythonCircle.animate(0.80);
     cppCircle.animate(0.25);
+    umlCircle.animate(0.55);
     projectCircle.animate(0.30);
     agileCircle.animate(0.40);
     softwareCircle.animate(0.50);
+    informationSystemCircle.animate(0.50);
 };
 
 
