@@ -114,11 +114,11 @@ var informationSystemCircle = new ProgressBar.Circle('#information-system-circle
 var displayAnimations = function() {
     javaCircle.animate(0.60);
     pythonCircle.animate(0.80);
-    cppCircle.animate(0.25);
+    cppCircle.animate(0.35);
     umlCircle.animate(0.55);
-    projectCircle.animate(0.30);
+    projectCircle.animate(0.60);
     agileCircle.animate(0.40);
-    softwareCircle.animate(0.50);
+    softwareCircle.animate(0.55);
     informationSystemCircle.animate(0.50);
 };
 
