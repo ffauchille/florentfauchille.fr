@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../images/first-page-bg.jpg') no-repeat center center scroll;
+    background: url('../images/blackboard.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -31,9 +31,36 @@ body {
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-family: ColoredCrayons;
+    color: #fff;
 }
+
+.headline h3 {
+    font-size: 30px;
+    font-family: ColoredCrayons;
+    color: #fff;
+}
+
+.headline h4 {
+    font-size: 20px;
+    font-family: ColoredCrayons;
+    color: #fff;
+}
+
+.headline a {
+    font-size: 20px;
+    font-family: ColoredCrayons;
+    color: #fff;
+}
+
+#white-chalk-border {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url('../images/download-cv.png') 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url('../images/download-cv.png') 30 stretch; /* Opera 11-12.1 */
+    border-image: url('../images/download-cv.png') 30 stretch;
+}
+
 
 .featurette-divider {
     margin: 80px 0;
